@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Epilogue;
+    src: url(Epilogue-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Epilogue;
+    color: #FFFAFD;
+    
+}
+
+body {
+    background-image: url(Frame_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 160px;
+}
+.header>nav {
+    display: flex;
+    align-items: center;
+    
+}
+#main-logo {
+    margin-right: 400px;
+
+}
+.header>nav>a {
+    font-family: Epilogue;
+   
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 40px;
+}
+/* /Header */
+
+/* Text */
+.text{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 160px;  
+}
+.text>h1 {
+    font-family: Epilogue;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.text>h1>strong {
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.text>p {
+    line-height: 20px;
+    color: #CCC8CA;
+}
+
+#line-vector {
+    position: absolute;
+    top: 170px;
+    left: 0;
+}
+#chip-png {
+    width: 460px;
+    position: absolute;
+    top: 170px;
+    right: 0;
+}
+/* /Text */
+
+/* Footer */
+.footer {
+    margin-left: 160px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+#b-left {
+    width: 200px;
+    height: 40px;
+    background-color: #C6C2C5;
+    color: #151E24;
+    border-radius: 4px;
+}
+#b-right {
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(244.43deg, #1E2B33 0%, #121A1F 100%);
+    color: #FFFAFD;
+    border: 2px solid #FFFAFD;
+    border-radius: 4px;
+}
+/* -Footer */
